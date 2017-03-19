@@ -8,9 +8,12 @@ Create a HBase Filter to filter out the customer information where location is A
 
 Open Eclipse
 Create a Java project FilterAUS.java
-Add jars from 
+Add jars from :
+/usr/local/hadoop-2.6.0/share/hadoop/common
+/usr/local/hbase/lib
+/usr/local/hadoop-2.6.0/share/hadoop/mapreduce
 Create a class CustomerAus
-Write the java code to filter the Row with location as "AUS"
+Write the java code to create row filter for HBASE table 'customer' with location as 'AUS'
 
 Refer Issues for screenshot#1
 
